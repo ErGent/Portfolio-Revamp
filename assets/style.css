@@ -11,12 +11,24 @@ body {
 .black {
   background-color: black;
   color: rgb(253, 236, 214);
+  border-left: solid 2px rgb(166, 127, 77);
+  border-right: solid 2px rgba(245, 215, 175, 0.5);
 }
-.nav-link {
+.linkedin,
+.git,
+.nav-link,
+.resume {
   color: rgb(253, 236, 214, 0.7);
+  text-decoration: none;
+}
+.linkedin:hover,
+.git:hover,
+.nav-link:hover,
+.resume:hover {
+  color: rgb(166, 127, 77);
 }
 .nav-link:hover {
-  color: rgb(245, 215, 175);
+  color: rgb(166, 127, 77);
 }
 .git {
   color: rgb(253, 236, 214, 0.7);
@@ -35,7 +47,7 @@ body {
   color: rgb(253, 236, 214);
 }
 
-a {
+.card-link {
   text-decoration: none;
   color: rgb(253, 236, 214);
 }
@@ -45,9 +57,10 @@ a:visited {
   color: rgb(253, 236, 214);
 }
 
-a:hover {
+.card-link:hover,
+#contact:hover {
   text-decoration: none;
-  color: rgb(245, 215, 175);
+  color: rgb(222, 180, 126);
 }
 
 a:active {
@@ -59,12 +72,106 @@ a:active {
   object-fit: cover;
 }
 .qualifications {
-  background-color: rgba(245, 215, 175, 0.5);
-  color: black;
+  background-color: rgba(245, 215, 175, 0.4);
+  color: rgb(253, 236, 214);
   margin-top: 2em;
   margin-bottom: 2em;
   padding: 2em;
   display: inline-block;
   border-top: 1px solid rgb(253, 236, 214);
-  border-bottom: 2px solid rgb(245, 215, 175);
+  border-bottom: 2px solid rgb(253, 236, 214);
+  height: 10vh;
+}
+.qualifications ul,
+.experience span {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: rgb(253, 236, 214);
+}
+.qualifications li {
+  display: inline;
+  text-decoration: none;
+  padding: 0.2em 0.5em;
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+  margin: 0 0 0 -6px;
+}
+
+.experienceHeader span {
+  text-transform: uppercase;
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: rgb(253, 236, 214);
+}
+
+.experienceHeader {
+  background-color: rgba(245, 215, 175, 0.5);
+  color: rgb(253, 236, 214);
+  display: inline-block;
+  border-top: 1px solid rgb(253, 236, 214);
+  border-bottom: 0.5px solid rgb(253, 236, 214);
+  height: 10vh;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-top: 2em;
+}
+.workHeader {
+  background-color: rgba(245, 215, 175, 0.6);
+  color: rgb(253, 236, 214);
+  display: inline-block;
+
+  border-bottom: 1px solid rgb(253, 236, 214);
+  height: 10vh;
+  padding-top: 2em;
+}
+.workHeader span {
+  text-transform: uppercase;
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: rgb(253, 236, 214);
+}
+.workHeader,
+.workExperience {
+  color: rgb(253, 236, 214);
+
+  border-bottom: 1px solid rgb(253, 236, 214);
+  height: 10vh;
+  padding-top: 1em;
+  margin-top: 0;
+}
+.workExperience ul {
+  list-style: none;
+  align-items: left;
+}
+.workExperience li {
+  text-align: right;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+#contact {
+  color: rgb(253, 236, 214);
+  text-decoration: none;
+}
+.top {
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  position: sticky;
+  bottom: 20px;
 }
