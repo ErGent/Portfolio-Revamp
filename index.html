@@ -19,10 +19,12 @@
         <div class="row">
 
             <!--background image left div-->
-            <div class="pic col-6">
-                <img src="/Portfolio-Revamp/assets/images/self2.JPG">
+            <div class="pic col-6" id="self">
+                <!--<img src="/Portfolio-Revamp/assets/images/self2.JPG">
+            </div>-->
+                <!--Right hand div holds text and content-->
+
             </div>
-            <!--Right hand div holds text and content-->
             <div class="black col-6 text-center">
 
                 <!--Nav contents-->
@@ -31,7 +33,17 @@
                         <a class="nav-link active" href="#about">About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -48,22 +60,77 @@
                     <div class="col-1"></div>
                     <div class="about col-10 text-center">
                         <h2>About Me</h2><br><br>
-                        <p>Front end web developer. Thanks to my background in fine arts, I bring a creative approach to
-                            problem solving and have a keen eye for design. I have tapped into the creativity that web
+                        <p>Hello! I'm a front end web developer. Thanks to my background in fine arts, I bring a
+                            creative
+                            approach to
+                            problem solving and have a keen eye for design. I have tapped into the creativity that
+                            web
                             development offers, and enjoy the problem solving and the puzzles that web development
                             presents.
                             My interests lie in UI/UX design but I enjoy all aspects of web development.</p>
+                        <p>I live in beautiful Colorado, where outside is my playground. Here with me are my 3 Bichons
+                            and
+                            my lovely partner!</p>
                     </div>
-                    <div class="text-center">
+                    <div class="qualifications" id="skills">
 
-                        <span><a href="/Portfolio-Revamp/assets/PDFs/resume.pdf" target="blank" class="resume">Download
-                                my
-                                resume</a></span>
+                        <ul>
+
+                            <li>
+                                Javascript
+                            </li>
+                            <li>
+                                React
+                            </li>
+                            <li>
+                                CSS
+                            </li>
+                            <li>
+                                HTML
+                            </li>
+                            <li>
+                                github
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center" id="work">
+
+                    <span><a href="/Portfolio-Revamp/assets/PDFs/resume.pdf" target="blank" class="resume">Download
+                            my
+                            resume</a></span>
+                </div>
+
+                <div class="row">
+                    <div class=" col experienceHeader"><span>Work Experience</span></div>
+                </div>
+
+                <div class="row">
+                    <div class=" col-4 workHeader" style="background-color: rgba(245, 215, 175, 0.6);"><span>Bespoke
+                            Dog</span></div>
+                    <div class="col-8 workExperience" style="background-color: rgba(245, 215, 175, 0.6)">
+                        <ul>
+                            <li>2011-2018</li>
+                            <li>owner</li>
+                            <li>groomer extraordinaire</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" row">
+                    <div class=" col-4 workHeader" style="background-color: rgba(245, 215, 175, 0.65)"><span>State
+                            Farm</span></div>
+                    <div class="col-8 workExperience" style="background-color: rgba(245, 215, 175, 0.65)">
+                        <ul>
+                            <li>2019-present</li>
+                            <li>sales</li>
+                            <li>account representative</li>
+                        </ul>
                     </div>
                 </div>
                 <!--projects-->
                 <div class="row mt-5">
-                    <div class="col projects">
+                    <div class="col projects" id="projects">
                         <h2>Projects</h2>
                     </div>
                 </div>
@@ -72,61 +139,122 @@
                     <div class="col-3"></div>
                     <div class="col-6">
                         <div class="card h-100">
-                            <div class="card-header" style="background-color: rgb(63, 81, 77)">
+                            <div class="card-header" style="background-color: rgb(127, 112, 92)">
 
                                 <p>MEMORY GAME</p>
 
                             </div>
-                            <a href="https://ergent.github.io/first_game/" target="blank">
-                                <img class="card-img-top" src="/Portfolio-Revamp/assets/images/esme.jpg"
-                                    alt="portfolio piece 1"></a>
-                            <div class="card-body" style="background-color:rgb(63, 81, 77)">
-                                <p class=" card-text">
-                                    Flip cards, match them all to win! (Coming soon: shuffle cards upon opening of page,
-                                    styling)
-                                </p>
-                            </div>
+                            <a href="https://ergent.github.io/first_game/" class="card-link" target="blank">
+                                <!--<img class="card-img-top" src="/Portfolio-Revamp/assets/images/esme.jpg"
+                                    alt="portfolio piece 1"></a>-->
+                                <img class="card-img-top" src="Portfolio-Revamp/assets/images/esme.jpg"
+                                    alt="portfolio piece 1">
+                                <div class="card-body" style="background-color:rgba(127, 112, 92)">
+                                    <p class=" card-text">
+                                        Flip cards, match them all to win! (Coming soon: shuffle cards upon opening
+                                        of
+                                        page,
+                                        styling)
+                                    </p>
+                            </a>
                         </div>
                     </div>
                 </div>
+
                 <!--card 2-->
 
-                <div class="row mt-5">
+                <div class="row my-5">
                     <div class="col-3"></div>
                     <div class="col-6">
                         <div class="card h-100">
-                            <div class="card-header" style="background-color: rgb(63, 81, 77)">
-                                <p>Portfolio Piece 1</p>
+                            <div class="card-header" style="background-color: rgb(127, 112, 92)">
+                                <p>Madam Gentry's Meditation</p>
                             </div>
-                            <img class="card-img-top" src="#" alt="portfolio piece 1">
-                            <div class="card-body" style="background-color:rgb(63, 81, 77)">
-                                <p class=" card-text">
-                                    Small blurb about portfolio piece 2!
-                                </p>
-                            </div>
+                            <a href="#" target="blank" class="card-link">
+                                <img class="card-img-top d-flex align-items-start"
+                                    src="assets/images/10_of_swords_Rebirth_cropped.jpg" alt="portfolio piece 1">
+                                <div class="card-body" style="background-color:rgb(127, 112, 92)">
+                                    <p class=" card-text">
+                                        Choose your Insight!<br>Meditation with the <br>Osho Zen Tarot Deck
+                                    </p>
+                            </a>
                         </div>
                     </div>
-                </div>
-                <!--end card 2-->
 
-                <div class="row my-5">
-                    <div class="about col">
-                        <section id="contact">
-                            <h2>Contact me!</h2><br>
-
-                            <p>Please send me an email at: erin@erin.com</p>
-                        </section>
-                    </div>
-                    <div class="text-center">
-                        <span><a href="https://www.linkedin.com/in/erin-gentry-15b8a718/" target="blank"
-                                class="linkedin">LinkedIn</a></span>
-                    </div>
                 </div>
             </div>
 
+        </div>
+        <div class="row">
+            <div class=" col experienceHeader" id="education"><span>education</span>
+            </div>
+        </div>
+        <div class=" row">
+            <div class=" col-4 workHeader" style="background-color: rgba(245, 215, 175, 0.65)"><span>generation
+                    usa</span></div>
+            <div class="col-8 workExperience" style="background-color: rgba(245, 215, 175, 0.65)">
+                <ul>
+                    <li>2022-2023</li>
+                    <li>front end web dev</li>
 
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-4 workHeader" style="background-color: rgba(245, 215, 175, 0.7);"><span>mass art
+                </span></div>
+            <div class="col-8 workExperience" style="background-color: rgba(245, 215, 175, 0.7)">
+                <ul>
+
+                    <li>mfa</li>
+                    <li>printmaking</li>
+                </ul>
+            </div>
 
         </div>
+        <div class="row">
+            <div class=" col-4 workHeader" style="background-color: rgba(245, 215, 175, 0.75);"><span>ULL
+                </span></div>
+            <div class="col-8 workExperience" style="background-color: rgba(245, 215, 175, 0.75)">
+                <ul>
+
+                    <li>bfa</li>
+                    <li>printmaking</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        <!--end card 2-->
+
+        <div class="row my-5">
+            <div class="about col">
+                <section>
+                    <h2>Contact me!</h2><br>
+
+                    <a href="mailto:ejagneaux@gmail.com" id="contact">Email</a>
+
+                </section>
+            </div>
+            <div class="text-center">
+                <span><a href="https://www.linkedin.com/in/erin-gentry-15b8a718/" target="blank" class="linkedin"
+                        id="contact">LinkedIn</a></span>
+            </div>
+            <div class="text-center">
+                <span><a href="https://github.com/ErGent" target="blank" class="github" id="contact">Github</a></span>
+            </div>
+
+        </div>
+
+        <div class="col-2 top"><a href="#">Top</a></div>
+
+
+
+
+
+
     </div>
 
     <script src="" async defer></script>
