@@ -76,7 +76,6 @@ a:active {
   object-fit: cover;
 }
 .qualifications {
-  background-color: rgba(245, 215, 175, 0.4);
   color: rgb(253, 236, 214);
   margin-top: 2em;
   margin-bottom: 2em;
@@ -117,7 +116,6 @@ a:active {
 }
 
 .experienceHeader {
-  background-color: rgba(245, 215, 175, 0.55);
   color: rgb(253, 236, 214);
   display: inline-block;
   border-top: 1px solid rgb(253, 236, 214);
@@ -128,7 +126,6 @@ a:active {
   padding-top: 2em;
 }
 .workHeader {
-  background-color: rgba(245, 215, 175, 0.65);
   color: rgb(253, 236, 214);
   display: inline-block;
 
