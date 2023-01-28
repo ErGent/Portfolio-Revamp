@@ -1,18 +1,18 @@
 body {
-  /*background-image: url("/Portfolio-Revamp/assets/images/self2.JPG");*/
-  /* background-image: url("./images/self2.JPG");
+  background-image: url("/Portfolio-Revamp/assets/images/self2.JPG");
+  /* background-image: url("./images/self2.JPG");*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-size: contain;
   height: auto;
   width: 100%;
-  background-position: 25% 75%;*/
+  background-position: 25% 75%;
 }
-#self {
+/*#self {
   height: 100%;
   position: fixed;
-}
+}*/
 .nav {
   position: sticky;
 }
