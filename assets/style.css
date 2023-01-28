@@ -1,13 +1,17 @@
 body {
   /*background-image: url("/Portfolio-Revamp/assets/images/self2.JPG");*/
-  background-image: url("./images/self2.JPG");
+  /* background-image: url("./images/self2.JPG");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-size: contain;
   height: auto;
   width: 100%;
-  background-position: 25% 75%;
+  background-position: 25% 75%;*/
+}
+#self {
+  height: 100%;
+  position: fixed;
 }
 .nav {
   position: sticky;
@@ -16,7 +20,9 @@ body {
   background-color: black;
   color: rgb(253, 236, 214);
   border-left: solid 2px rgb(166, 127, 77);
-  border-right: solid 2px rgba(245, 215, 175, 0.5);
+  z-index: 1;
+
+  margin-left: 50%;
 }
 .linkedin,
 .git,
