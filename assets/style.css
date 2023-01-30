@@ -11,20 +11,19 @@
 }*/
 #self {
   height: 100%;
-  position: fixed;
+  top: 0px;
+  position: sticky;
   overflow: hidden;
 }
-.nav {
-  position: sticky;
-}
+
 .black {
   background-color: black;
   color: rgb(253, 236, 214);
   border-left: solid 2px rgb(166, 127, 77);
+  border-right: solid 2px rgb(166, 127, 77);
   z-index: 1;
-
-  margin-left: 50%;
 }
+
 .linkedin,
 .git,
 .nav-link,
@@ -116,7 +115,7 @@ a:active {
   margin-top: 0;
   padding: 0;
   list-style-type: none;
-  text-align: center;
+
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 1.3em;
   color: rgb(253, 236, 214);
@@ -129,35 +128,36 @@ a:active {
   border-bottom: 0.5px solid rgb(253, 236, 214);
   height: 10vh;
   margin-top: 2em;
-  padding-top: 1em;
-  padding-top: 2em;
+  padding-left: 3em;
 }
 .workHeader {
   color: rgb(253, 236, 214);
   display: inline-block;
-
+  padding-left: 3em;
   border-bottom: 1px solid rgb(253, 236, 214);
   height: 10vh;
-  padding-top: 2em;
 }
 .workHeader span {
   text-transform: uppercase;
   margin-top: 0;
   padding: 0;
   list-style-type: none;
-  text-align: center;
+
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 1.3em;
   color: rgb(253, 236, 214);
 }
-.workHeader,
+
 .workExperience {
   color: rgb(253, 236, 214);
-
+  padding-right: 3em;
   border-bottom: 1px solid rgb(253, 236, 214);
   height: 10vh;
   padding-top: 1em;
   margin-top: 0;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 .workExperience ul {
   list-style: none;
@@ -182,4 +182,11 @@ a:active {
   border-radius: 100px;
   position: sticky;
   bottom: 20px;
+}
+.drop {
+  border: none;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: rgb(253, 236, 214);
+  font-style: italic;
 }
