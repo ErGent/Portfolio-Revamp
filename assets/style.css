@@ -22,6 +22,7 @@
   color: rgb(253, 236, 214);
   border-left: solid 2px rgb(166, 127, 77);
   border-right: solid 2px rgb(166, 127, 77);
+  z-index: 1;
 }
 
 .linkedin,
