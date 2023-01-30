@@ -141,9 +141,10 @@ a:active {
 .workHeader {
   color: rgb(253, 236, 214);
   display: inline-block;
-
+  font-size: 14px;
   border-bottom: 1px solid rgb(253, 236, 214);
   height: 10vh;
+  padding-left: 2em;
 }
 .workHeader span {
   text-transform: uppercase;
