@@ -17,6 +17,14 @@
   overflow: hidden;
 }
 
+#selfMobile {
+  height: 100%;
+  top: 0px;
+  position: sticky;
+  overflow: hidden;
+  object-fit: scale-down;
+}
+
 .black {
   background-color: black;
   color: rgb(253, 236, 214);
